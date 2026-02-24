@@ -1,7 +1,6 @@
 # E-commerce_Sales_Analysis
-Data Abalytics Project showcasing E-commerce Sales Analysis using Python, SQL, and Power BI
+Data Abalytics Project showcasing E-commerce Sales Analysis using Python, SQL, and Power BI.
 
-Data Analytics Project – End-to-End Business Insights
 1. Overview
     This project demonstrates a complete end-to-end data analytics workflow, starting from raw dataset processing in Python to building an interactive Power BI dashboard for business insights.
     The objective of the project is to clean, analyse, and transform structured data into meaningful insights using industry-standard tools such as Python, MySQL, and Power BI.
@@ -30,51 +29,47 @@ Data Analytics Project – End-to-End Business Insights
         Visual Studio Code(Jupyter Notebook Extension)
 
 4. Project Steps
-Step 1: Data Loading (Python)
-        Imported dataset using Pandas
-        Checked data types and structure
-        Identified missing and duplicate values
+        Step 1: Data Loading (Python)
+                Imported dataset using Pandas
+                Checked data types and structure
+                Identified missing and duplicate values
+        Step 2: Data Cleaning
+                Removed duplicates
+                Handled missing values
+                Converted date columns to datetime format
+                Standardised column names
+                Corrected inconsistent data entries
+        Step 3: Exploratory Data Analysis (EDA)
+        Analysed:
+                  Sales trends by month and year
+                  Profit distribution by region
+                  Top-performing products
+                  Customer purchase behaviour
+                  Generated summary statistics
+                  Created visualisations for trend analysis
+        Step 4: SQL Analysis (MySQL Server)
+                Loaded cleaned dataset into MySQL
+                Wrote SQL queries for:
+                Aggregations (SUM, AVG, COUNT)
+                GROUP BY analysis
+                Joins
+                Window functions
+                Monthly KPI calculations
+                Created views for reporting purposes
+        Step 5: Power BI Dashboard Development
+                Connected Power BI to MySQL
+                Built a data model with relationships
+                Created DAX measures:
+                Total Sales
+                Total Profit
+                Designed an interactive dashboard with filters:
+                Year
+                Region
+                Product Category
 
-Step 2: Data Cleaning
-        Removed duplicates
-        Handled missing values
-        Converted date columns to datetime format
-        Standardised column names
-        Corrected inconsistent data entries
-
-Step 3: Exploratory Data Analysis (EDA)
-Analysed:
-          Sales trends by month and year
-          Profit distribution by region
-          Top-performing products
-          Customer purchase behaviour
-          Generated summary statistics
-          Created visualisations for trend analysis
-
-Step 4: SQL Analysis (MySQL Server)
-        Loaded cleaned dataset into MySQL
-        Wrote SQL queries for:
-        Aggregations (SUM, AVG, COUNT)
-        GROUP BY analysis
-        Joins
-        Window functions
-        Monthly KPI calculations
-        Created views for reporting purposes
-
-Step 5: Power BI Dashboard Development
-        Connected Power BI to MySQL
-        Built a data model with relationships
-        Created DAX measures:
-        Total Sales
-        Total Profit
-        Designed an interactive dashboard with filters:
-        Year
-        Region
-        Product Category
-
-6. Key Results & Insights
+5. Key Results & Insights
         Identified top-performing regions contributing the highest revenue.
         Analysed seasonal sales trends.
         Discovered product categories with the highest profit margins.
-        Highlighted underperforming segments requiring business attention.
+        I've highlighted underperforming segments that require business attention.
         Created dynamic KPI tracking for decision-making.
